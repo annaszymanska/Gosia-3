@@ -1,0 +1,89 @@
+body{
+  background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-background.png') repeat;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 1.125rem;
+  line-height: 1.5;
+  color: #444349; 
+}
+
+div.header {
+	display: table;
+}
+div.header .title {
+	display: table-cell;
+	vertical-align: middle;
+	color: lightgoldenrodyellow;
+	background: url(assets/gong-i-misy.jpg) center no-repeat;
+	text-shadow: 0px 0px 15px darkturquoise;
+}
+
+div.header .title h1 {
+	font-size: 4.5rem;
+}
+
+div.header .title h2 {
+	font-size: 2rem;
+}
+
+div.header .title h1, h2{
+	font-family: 'Cinzel', cursive;
+	max-width: 70vw;
+	margin: 0 auto;
+	/*text-shadow: 1px 1px 10px darkturquoise; */
+}
+
+div.row h3 {
+	margin: 1rem auto;
+	font-size: 3rem;
+    font-family: 'Great Vibes', cursive;
+   
+}
+
+div.row.row-dark h3{
+	color: white;
+}
+
+div.row.row-bright h3{
+	color: black;
+}
+
+div.container.content {
+	padding: 0px;
+	align-content: center;
+	margin: 0px;
+	max-width: 100vw;
+}
+
+div.row.row-bright, div.row.row-dark {
+	height: 20rem;
+	width: 100vw;
+	padding: 3rem;
+	margin-right: 0px;
+    margin-left: 0px;
+}
+
+div.row-bright {
+	/*background-image: radial-gradient(goldenrod, white)*/;
+	background-color: hsla(48, 100%, 91%, 0.5);/*goldenrodyellow*/
+}
+
+div.row-dark {
+	/*background-color: #008486;
+	background-image: radial-gradient(turquoise, #008486, white);*/
+	background-color: hsla(180, 100%, 25%, 0.5);/*darkturquise*/
+	color: white;
+}
+
+
+.header {
+	/*background-image: radial-gradient(goldenrod, white);*/
+	background-image: radial-gradient(turquoise, #008486);
+	/* ZMIENIĆ NA CZĘŚCIOWO PRZEZROCZYSTY, wskazówka: https://webdevetc.com/blog/how-to-add-a-gradient-overlay-to-a-background-image-using-just-css-and-html */
+	margin: 0 auto;
+	width: 100vw;
+	height: 100vh
+}
+
+.navbar-custom {
+	background-color: hsla(48, 100%, 91%, 0.5);
+}
